@@ -59,3 +59,24 @@ Go to [Cloudera Manager](http://137.204.72.233:7180/cmf/home) (Username: student
 Apache Hue offers a more complete navigation of the filesystem, with the possibility to create/move/rename/delete folders and files. You can change permissions, download files, and use the drag&drop feature to easily upload new files and folders.
 
 Go to [Apache Hue](http://137.204.72.233:8888) and click on the three-lines menu (top-left) > Files.
+
+## 101-4 Virtual machine setup
+
+Quickstart for CDH 5.13 is the virtual machine from Cloudera that provides a safe environment for testing and self-learning. It is already available on lab computers, but you can also download it from [here](https://www.cloudera.com/downloads/quickstart_vms/5-13.html) and install it on your computers.
+
+### Minimum requirements
+
+Minimum requirements depend on the desired configuration:
+- 4 GB of RAM for running CDH alone
+- 8 GB of RAM for running Cloudera Express (i.e., with Cloudera Manager)
+- 12 GB of RAM for running Cloudera Enterprise (i.e., the commercial version)
+
+We will use 6 GB of RAM to run Cloudera Express with a reduced number of services.
+
+### Running CDH and Cloudera Manager
+
+TBD
+
+### Loading datasets
+
+TBD
