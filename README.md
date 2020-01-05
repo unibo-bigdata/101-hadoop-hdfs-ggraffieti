@@ -80,3 +80,11 @@ TBD
 ### Loading datasets
 
 TBD
+
+## 101-5 Differences between Cluster and Virtual machine
+
+- Java: 1.8 cluster, 1.7 VM
+- CDH: 5.13 both
+- Hadoop: 2.6 both
+- Spark: 1.6 both
+- Spark2: 2.1 cluster only
