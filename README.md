@@ -81,6 +81,7 @@ We will use 6 GB of RAM to run Cloudera Express with a reduced number of service
 - Open a new Terminal and launch Cloudera Manager with the command ```sudo /home/cloudera/cloudera-manager --force --express```
 - Open the browser and select the Cloudera Manager bookmark
 - Stop every unnecessary service (i.e., HBase, Impala, Key-Value Store, Oozie, Solr, Sqoop 1 Client, Sqoop 2). Delete them if you don't wont them starting up again if the cluster is restarted.
+- Remember: if you close the VM by suspending, some services may go down when the VM is reopened and will need to be restarted; otherwise, if you clode the VM by shutting down, Cloudera Manager will need to be restarted when the VM is reopened.
 
 ### Loading datasets
 
