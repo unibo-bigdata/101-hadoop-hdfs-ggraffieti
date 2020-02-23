@@ -75,11 +75,23 @@ We will use 6 GB of RAM to run Cloudera Express with a reduced number of service
 
 ### Running CDH and Cloudera Manager
 
-TBD
+- Open VMware and make sure that the settings of the virtual machine comply with the minimum requirements.
+- Launch the virtual machine.
+- Go to System > Preferences > Keyboard > Layouts to setup the Italian keyboard
+- Open a new Terminal and launch Cloudera Manager with the command ```sudo /home/cloudera/cloudera-manager --force --express```
+- Open the browser and select the Cloudera Manager bookmark
+- Stop every unnecessary service (i.e., HBase, Impala, Key-Value Store, Oozie, Solr, Sqoop 1 Client, Sqoop 2). Delete them if you don't wont them starting up again if the cluster is restarted.
 
 ### Loading datasets
 
-TBD
+Put the content of the dataset folder in the virtual machine either by setting Git in the virtual machine, or by copy/pasting the folder from your physical machine.
+
+Then, create a "dataset" folder in the home folder on HDFS and put there the files. Either use the following commands from a Terminal windows or use the web UI of Hue.
+
+```shell
+hdfs dfs -mkdir dataset
+hdfs dfs -put <localpath1> ... <localpathN> dataset
+```
 
 ## 101-5 Differences between Cluster and Virtual machine
 
