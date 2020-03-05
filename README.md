@@ -6,9 +6,11 @@ Module 1, Big Data course (81932), University of Bologna.
 
 Goal: setup connections to the classroom's cluster via Putty and WinSCOP
 
+- (Only if connecting from outside UniBo network) Create a connection to 137.204.?.? on Putty
+  - Use your institutional credentials
 - Create a connection to isi-vclust**N**.csr.unibo.it on Putty
   - **N** is the number of the node you have been assigned to
-- Get your credentials from https://tinyurl.com/bigdata20users 
+  - Get your credentials from https://tinyurl.com/bigdata20users 
 - Change your password!
 ```passwd <username>```
 - Create a directory in your home called bigdata
@@ -96,7 +98,7 @@ hdfs dfs -put <localpath1> ... <localpathN> dataset
 
 ## 101-5 Differences between Cluster and Virtual machine
 
-- Java: 1.8 cluster, 1.7 VM
+- Java: 1.7 both
 - CDH: 5.13 both
 - Hadoop: 2.6 both
 - Spark: 1.6 both
