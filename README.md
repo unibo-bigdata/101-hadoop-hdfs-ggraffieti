@@ -6,11 +6,10 @@ Module 1, Big Data course (81932), University of Bologna.
 
 Goal: setup connections to the classroom's cluster via Putty and WinSCOP
 
-- (Only if connecting from outside UniBo network) Create a connection to 137.204.?.? on Putty
-  - Use your institutional credentials
-- Create a connection to isi-vclust**N**.csr.unibo.it on Putty
+- Connect to isi-vclust**N**.csr.unibo.it on Putty
   - **N** is the number of the node you have been assigned to
   - Get your credentials from https://tinyurl.com/bigdata20users 
+  - If connecting from outside UniBo network, you first need to connect to 137.204.72.5 on Putty; use your institutional credentials to connect; then, use another window to connect to isi-vclust
 - Change your password!
 ```passwd <username>```
 - Create a directory in your home called bigdata
